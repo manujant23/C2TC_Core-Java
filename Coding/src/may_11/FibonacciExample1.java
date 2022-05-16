@@ -9,7 +9,7 @@ public static void main(String args [])
  // int n2 = 1;
  // int n3 ;
  //int count = 10;
- System.out.print(n1+" "+n2);//printing   
+ System.out.print(n1+ " " +n2);//printing   
     
  for(i=2;i<count;i++)//loop starts from 2 because 0 and 1 are already printed    
  {    
