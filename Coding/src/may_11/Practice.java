@@ -1,18 +1,22 @@
 package may_11;
 
-public class Practice
-{
 
+class student
+{
+	String  name = "manu";
+}
+public class Practice extends student
+{
+	String school = "mvj";
 	public static void main(String[] args)
 	{
-		for(int j=0;j<=3;j++)
-		{
-		for(int i=0;i<=3;i++)
-		{
-		System.out.print("coins ");	
-		}
-		System.out.println("");
-		}
+		Practice ob1 = new Practice();
+		System.out.println(ob1.name);
+		System.out.println(ob1.school);
+		student ob2 =new student();
+		System.out.println(ob2.name);
+		
+		
 	}
 
 }
