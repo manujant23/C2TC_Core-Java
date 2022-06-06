@@ -1,22 +1,36 @@
 package may_11;
 
-
-class student
+class Practice
 {
-	String  name = "manu";
-}
-public class Practice extends student
-{
-	String school = "mvj";
-	public static void main(String[] args)
+	public static void main(String [] args)
 	{
-		Practice ob1 = new Practice();
-		System.out.println(ob1.name);
-		System.out.println(ob1.school);
-		student ob2 =new student();
-		System.out.println(ob2.name);
-		
-		
+		for(int j=0;j<5;j++)
+		{
+		for(int i =0;i<5;i++)
+		{
+		System.out.print("*");//*****
+		                      //*****
 	}
+		System.out.println("");
+		}
+	
+	}}
 
-}
+
+//j=0
+//i=0, *,i=1,**,i=2,***...******.i=5
+//j=1
+//i=0, *,i=1,**,i=2,***...******.i=5
+//j=2
+//i=0, *,i=1,**,i=2,***...******.i=5
+//j=3
+//i=0, *,i=1,**,i=2,***...******.i=5
+//j=4
+//i=0, *,i=1,**,i=2,***...******.i=5
+
+
+//*****
+//*****
+//*****
+//*****
+//*****
